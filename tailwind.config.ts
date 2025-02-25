@@ -11,7 +11,7 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        ...colors,
+        // ...colors,
         primary: "#48A860", // Chateau Green
         secondary: "#98FB98", // Mint Green
         // primary: "#1A202C",

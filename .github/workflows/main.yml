@@ -24,6 +24,9 @@ jobs:
       - name: ビルド
         run: npm run build
 
+      - name: Set Web Framework
+        run: npx firebase experiments:enable webframeworks
+
       - name: Firebase にデプロイ
         run: npx firebase deploy --token ${{ secrets.FIREBASE_TOKEN }}
 
