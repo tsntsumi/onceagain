@@ -7,8 +7,8 @@ const HomeBlogSection = ({ posts }: any) => {
       <div className="container mx-auto">
         <div className="mb-[60px]">
           <SectionTitle
-            subtitle="Our Blogs"
-            title="Our Recent News"
+            subtitle="ブログ"
+            title="最新ニュース"
             paragraph="There are many variations of passages of Lorem Ipsum available but the majority have suffered alteration in some form."
             width="640px"
             center

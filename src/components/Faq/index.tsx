@@ -7,8 +7,8 @@ const Faq = () => {
       <div className="container">
         <SectionTitle
           subtitle="FAQ"
-          title="Any Questions? Answered"
-          paragraph="There are many variations of passages of Lorem Ipsum available but the majority have suffered alteration in some form."
+          title="ご質問はありませんか？"
+          paragraph="AI オートメーションに関するよくある質問をまとめました"
           width="640px"
           center
         />
@@ -16,31 +16,31 @@ const Faq = () => {
         <div className="-mx-4 mt-[60px] flex flex-wrap lg:mt-20">
           <div className="w-full px-4 lg:w-1/2">
             <SingleFaq
-              question="How to use TailGrids?"
-              answer="It takes 2-3 weeks to get your first blog post ready. That includes the in-depth research & creation of your monthly content marketing strategy that we do before writing your first blog post, Ipsum available ."
+              question="AI オートメーション・エージェンシーとは何ですか？"
+              answer="AI オートメーション・エージェンシーとは、人工知能を活用して業務を自動化し、効率化やコスト削減を実現するビジネスモデルです。企業の業務プロセスを最適化し、人材をより価値の高い業務へ集中させることが可能になります。\n AI エージェンシーは、クライアントの業務改善を成功させることで信頼を獲得し、長期的な契約や新規案件の紹介につながります。また、AI導入が進む市場で高い専門性を持つことで競争優位性を築くことができます。"
             />
             <SingleFaq
-              question="How to download icons from LineIcons?"
-              answer="It takes 2-3 weeks to get your first blog post ready. That includes the in-depth research & creation of your monthly content marketing strategy that we do before writing your first blog post, Ipsum available ."
+              question="AI オートメーション・エージェンシーを始めるには何が必要ですか？"
+              answer="AI オートメーション・エージェンシーを始めるには、市場調査を行い、どの業務領域にAIを導入するかを明確にすることが重要です。その後、適切なAIツールの選定、導入計画の策定、実装、運用までの流れを設計し、継続的な改善を行うことが成功の鍵となります。\n AI エージェンシーは、"
             />
             <SingleFaq
-              question="Is GrayGrids part of UIdeck?"
-              answer="It takes 2-3 weeks to get your first blog post ready. That includes the in-depth research & creation of your monthly content marketing strategy that we do before writing your first blog post, Ipsum available ."
+              question="どの業種でもAIオートメーションを導入できますか？"
+              answer="はい、多くの業種でAIオートメーションを導入できます。特に、カスタマーサポート、マーケティング、製造業、物流、医療、金融など、データを活用する業務が多い分野では高い効果が期待できます。\n AI エージェンシーは、"
             />
           </div>
 
           <div className="w-full px-4 lg:w-1/2">
             <SingleFaq
-              question="Can I use this template for commercial project?"
-              answer="It takes 2-3 weeks to get your first blog post ready. That includes the in-depth research & creation of your monthly content marketing strategy that we do before writing your first blog post, Ipsum available ."
+              question="AIオートメーションを導入するとどのようなメリットがありますか？"
+              answer="AIオートメーションを導入することで、業務の効率化、人件費の削減、ヒューマンエラーの防止、迅速なデータ分析による意思決定の強化など、多くのメリットがあります。また、顧客対応のスピード向上や、競争力の強化にもつながります。\n AI エージェンシーは、"
             />
             <SingleFaq
-              question="Do you have plan to releasing Play Pro?"
-              answer="It takes 2-3 weeks to get your first blog post ready. That includes the in-depth research & creation of your monthly content marketing strategy that we do before writing your first blog post, Ipsum available ."
+              question="AI導入には高額なコストがかかりますか？"
+              answer="導入するAIの種類や規模によりますが、最近では低コストで始められるAIツールも増えています。クラウドベースのサービスを活用すれば、初期投資を抑えながらスモールスタートし、必要に応じて拡張することも可能です。\n AI エージェンシーは、"
             />
             <SingleFaq
-              question="Where and how to host this template?"
-              answer="It takes 2-3 weeks to get your first blog post ready. That includes the in-depth research & creation of your monthly content marketing strategy that we do before writing your first blog post, Ipsum available ."
+              question="AIオートメーション導入後の運用やメンテナンスはどうすればよいですか？"
+              answer="導入後は、定期的なシステムのアップデートやパフォーマンスのモニタリングが重要です。AIの精度を維持するためにデータを適切に管理し、必要に応じてアルゴリズムを調整することで、継続的に効果を最大化できます。\n AI "
             />
           </div>
         </div>

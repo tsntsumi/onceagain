@@ -245,7 +245,7 @@ const SingleTeam = ({ team }: { team: TeamType }) => {
           <p className="mb-5 text-sm text-body-color dark:text-dark-6">
             {designation}
           </p>
-          <div className="flex items-center justify-center gap-5">
+          <div className="flex items-center justify-center gap-5 hidden">
             <Link
               aria-label="social link"
               href={facebookLink}

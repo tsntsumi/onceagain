@@ -17,9 +17,11 @@ const featuresData: Feature[] = [
         />
       </svg>
     ),
-    title: "Free and Open-Source",
-    paragraph: "Lorem Ipsum is simply dummy text of the printing and industry.",
-    btn: "Learn More",
+    title: "今の生活に満足していますか？",
+    paragraph: ["あなたは、今の生活に満足していますか？",
+                "毎日遅くまで残業し、家族との時間はほとんどない。上司がパワハラまでしてきて精神的につらい。地方だから給料も上がらないし、やりたい仕事もできない。",
+                "もしかしたら、都会に出ないと未来はないのかも…と諦めていませんか？" ],
+    btn: "",
     btnLink: "/#",
   },
   {
@@ -38,9 +40,12 @@ const featuresData: Feature[] = [
         />
       </svg>
     ),
-    title: "Modern Design",
-    paragraph: "Lorem Ipsum is simply dummy text of the printing and industry.",
-    btn: "Learn More",
+    title: "あなたの悩み、解決できます。",
+    paragraph: [
+      "でも、諦めるのはまだ早いです。地方に住んでいても、家族との時間を大切にしながら、高収入とやりがいを両立する方法があります。それは、AI オートメーション・エージェンシーです。",
+      "AI エージェンシーは今、世界中で急速に発展している 150 兆円規模の市場です。AI オートメーション・エージェンシーはその中でも、ビジネスの効率化と生産性向上に的を絞ったエージェンシーです。",
+      "AI オートメーションを習得すれば、あなたは場所や時間に縛られずに、好きな場所で、好きなクライアントと、好きなように働くことができます。"],
+    btn: "",
     btnLink: "/#",
   },
   {
@@ -91,9 +96,10 @@ const featuresData: Feature[] = [
         />
       </svg>
     ),
-    title: "SaaS Starter Kit",
-    paragraph: "Lorem Ipsum is simply dummy text of the printing and industry.",
-    btn: "Learn More",
+    title: "AI オートメーションで、人生が変わる",
+    paragraph: ["想像してみてください。あなたは、最新の AI 技術を駆使して、社会にインパクトを与えるようなプロジェクトに携わっています。",
+                "収入は、今の何倍にも増え、家族との時間もたっぷり取れるようになりました。都会の喧騒から離れ、自然豊かな場所で、家族と笑顔で過ごす。そんな理想のライフスタイルを、AI オートメーションは実現してくれるのです。"],
+    btn: "",
     btnLink: "/#",
   },
   {
@@ -124,9 +130,11 @@ const featuresData: Feature[] = [
         />
       </svg>
     ),
-    title: "All Essential Integrations",
-    paragraph: "Lorem Ipsum is simply dummy text of the printing and industry.",
-    btn: "Learn More",
+    title: "あなたも、AI エージェンシーになれる",
+    paragraph: ["「でも、AI エージェンシーなんて難しそう…」そう思ったかもしれません。確かに、AIは専門的な知識が必要な分野です。しかし、正しく始めれば、誰でも AI エージェンシーを始めることができます。",
+                "私たちのカリキュラムは、プログラミング経験がほとんどない方でも、AI オートメーションの基礎から応用まで、段階的に学べるように設計されています。",
+                "さらに、経験豊富な講師が、あなたの学習を徹底的にサポートしますので、安心して学習を進めることができます。"],
+    btn: "",
     btnLink: "/#",
   },
 ];

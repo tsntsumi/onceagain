@@ -21,8 +21,7 @@ const Footer = () => {
                 />
               </Link>
               <p className="mb-8 max-w-[270px] text-base text-gray-7">
-                We create digital experiences for brands and companies by using
-                technology.
+                不遇なプログラマに贈る、AI 逆転戦略。最新技術を学び、AI エージェントで、あなたの可能性を再び開花。
               </p>
               <div className="-mx-3 flex items-center">
                 <Link
@@ -97,7 +96,7 @@ const Footer = () => {
           <div className="w-full px-4 sm:w-1/2 md:w-1/2 lg:w-2/12 xl:w-2/12">
             <div className="mb-10 w-full">
               <h4 className="mb-9 text-lg font-semibold text-white">
-                About Us
+                私たちについて
               </h4>
               <ul>
                 <li>
@@ -105,7 +104,7 @@ const Footer = () => {
                     href="#"
                     className="mb-3 inline-block text-base text-gray-7 hover:text-primary"
                   >
-                    Home
+                    ホーム
                   </Link>
                 </li>
                 <li>
@@ -113,7 +112,7 @@ const Footer = () => {
                     href="#"
                     className="mb-3 inline-block text-base text-gray-7 hover:text-primary"
                   >
-                    Features
+                    特徴
                   </Link>
                 </li>
                 <li>
@@ -121,24 +120,24 @@ const Footer = () => {
                     href="#"
                     className="mb-3 inline-block text-base text-gray-7 hover:text-primary"
                   >
-                    About
+                    組織概要
                   </Link>
                 </li>
-                <li>
-                  <Link
+                {/* <li>
+                    <Link
                     href="#"
                     className="mb-3 inline-block text-base text-gray-7 hover:text-primary"
-                  >
-                    Testimonial
-                  </Link>
-                </li>
+                    >
+                    お客様の声
+                    </Link>
+                    </li> */}
               </ul>
             </div>
           </div>
           <div className="w-full px-4 sm:w-1/2 md:w-1/2 lg:w-3/12 xl:w-2/12">
             <div className="mb-10 w-full">
               <h4 className="mb-9 text-lg font-semibold text-white">
-                Features
+                特徴
               </h4>
               <ul>
                 <li>
@@ -146,7 +145,7 @@ const Footer = () => {
                     href="#"
                     className="mb-3 inline-block text-base text-gray-7 hover:text-primary"
                   >
-                    How it works
+                    どのように機能するか
                   </Link>
                 </li>
                 <li>
@@ -154,7 +153,7 @@ const Footer = () => {
                     href="#"
                     className="mb-3 inline-block text-base text-gray-7 hover:text-primary"
                   >
-                    Privacy policy
+                    プライバシー・ポリシー
                   </Link>
                 </li>
                 <li>
@@ -162,7 +161,7 @@ const Footer = () => {
                     href="#"
                     className="mb-3 inline-block text-base text-gray-7 hover:text-primary"
                   >
-                    Terms of Service
+                    特別商取引法
                   </Link>
                 </li>
                 <li>
@@ -170,57 +169,57 @@ const Footer = () => {
                     href="#"
                     className="mb-3 inline-block text-base text-gray-7 hover:text-primary"
                   >
-                    Refund policy
+                    返金ポリシー
                   </Link>
                 </li>
               </ul>
             </div>
           </div>
-          <div className="w-full px-4 sm:w-1/2 md:w-1/2 lg:w-3/12 xl:w-2/12">
-            <div className="mb-10 w-full">
+          {/* <div className="w-full px-4 sm:w-1/2 md:w-1/2 lg:w-3/12 xl:w-2/12">
+              <div className="mb-10 w-full">
               <h4 className="mb-9 text-lg font-semibold text-white">
-                Our Products
+              私たちの製品・サービス
               </h4>
               <ul>
-                <li>
-                  <Link
-                    href="#"
-                    className="mb-3 inline-block text-base text-gray-7 hover:text-primary"
-                  >
-                    LineIcons
-                  </Link>
-                </li>
-                <li>
-                  <Link
-                    href="#"
-                    className="mb-3 inline-block text-base text-gray-7 hover:text-primary"
-                  >
-                    Next.js Templates
-                  </Link>
-                </li>
-                <li>
-                  <Link
-                    href="#"
-                    className="mb-3 inline-block text-base text-gray-7 hover:text-primary"
-                  >
-                    TailAdmin
-                  </Link>
-                </li>
-                <li>
-                  <Link
-                    href="#"
-                    className="mb-3 inline-block text-base text-gray-7 hover:text-primary"
-                  >
-                    PlainAdmin
-                  </Link>
-                </li>
+              <li>
+              <Link
+              href="#"
+              className="mb-3 inline-block text-base text-gray-7 hover:text-primary"
+              >
+              LineIcons
+              </Link>
+              </li>
+              <li>
+              <Link
+              href="#"
+              className="mb-3 inline-block text-base text-gray-7 hover:text-primary"
+              >
+              Next.js Templates
+              </Link>
+              </li>
+              <li>
+              <Link
+              href="#"
+              className="mb-3 inline-block text-base text-gray-7 hover:text-primary"
+              >
+              TailAdmin
+              </Link>
+              </li>
+              <li>
+              <Link
+              href="#"
+              className="mb-3 inline-block text-base text-gray-7 hover:text-primary"
+              >
+              PlainAdmin
+              </Link>
+              </li>
               </ul>
-            </div>
-          </div>
+              </div>
+              </div> */}
           <div className="w-full px-4 md:w-2/3 lg:w-6/12 xl:w-3/12">
             <div className="mb-10 w-full">
               <h4 className="mb-9 text-lg font-semibold text-white">
-                Useful Links
+                リンク
               </h4>
               <ul>
                 <li>
@@ -228,7 +227,7 @@ const Footer = () => {
                     href="#"
                     className="mb-3 inline-block text-base text-gray-7 hover:text-primary"
                   >
-                    FAQ
+                    よくある質問
                   </Link>
                 </li>
                 <li>
@@ -236,7 +235,7 @@ const Footer = () => {
                     href="#"
                     className="mb-3 inline-block text-base text-gray-7 hover:text-primary"
                   >
-                    Blogs
+                    ブログ
                   </Link>
                 </li>
                 <li>
@@ -244,7 +243,7 @@ const Footer = () => {
                     href="#"
                     className="mb-3 inline-block text-base text-gray-7 hover:text-primary"
                   >
-                    Support
+                    サポート
                   </Link>
                 </li>
                 <li>
@@ -252,7 +251,7 @@ const Footer = () => {
                     href="#"
                     className="mb-3 inline-block text-base text-gray-7 hover:text-primary"
                   >
-                    About
+                    組織概要
                   </Link>
                 </li>
               </ul>

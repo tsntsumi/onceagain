@@ -12,9 +12,9 @@ const Pricing = () => {
       <div className="container">
         <div className="mb-[60px]">
           <SectionTitle
-            subtitle="Pricing Table"
-            title="Our Pricing Plan"
-            paragraph="There are many variations of passages of Lorem Ipsum available but the majority have suffered alteration in some form."
+            subtitle="サービス・リスト"
+            title="私たちがご提供するサービスです"
+            paragraph="AIを使って、生産性を上げるための AI オートメーション (AA) サービスです。オフィス・オートメーション (OA) やファクトリーオートメーション (FA) は、AAによって取って代わられつつあります。経営者にとって今が AA を導入する絶好のチャンス！"
             center
           />
         </div>

@@ -9,10 +9,10 @@ const Contact = () => {
             <div className="ud-contact-content-wrapper">
               <div className="ud-contact-title mb-12 lg:mb-[150px]">
                 <span className="mb-6 block text-base font-medium text-dark dark:text-white">
-                  CONTACT US
+                  ご連絡はこちらから：
                 </span>
                 <h2 className="max-w-[260px] text-[35px] font-semibold leading-[1.14] text-dark dark:text-white">
-                  Let&#39;s talk about your problem.
+                  あなたの問題、課題についてお話しましょう。
                 </h2>
               </div>
               <div className="mb-12 flex flex-wrap justify-between lg:mb-0">
@@ -30,10 +30,10 @@ const Contact = () => {
                   </div>
                   <div>
                     <h3 className="mb-[18px] text-lg font-semibold text-dark dark:text-white">
-                      Our Location
+                      所在地
                     </h3>
                     <p className="text-base text-body-color dark:text-dark-6">
-                      401 Broadway, 24th Floor, Orchard Cloud View, London
+                      Alby city Legazpi, フィリピン共和国
                     </p>
                   </div>
                 </div>
@@ -50,13 +50,13 @@ const Contact = () => {
                   </div>
                   <div>
                     <h3 className="mb-[18px] text-lg font-semibold text-dark dark:text-white">
-                      How Can We Help?
+                      どのようにお手伝いしましょう？
                     </h3>
                     <p className="text-base text-body-color dark:text-dark-6">
-                      info@yourdomain.com
+                      info@alizza-ideal.com
                     </p>
                     <p className="mt-1 text-base text-body-color dark:text-dark-6">
-                      contact@yourdomain.com
+                      kikuo@alizza-ideal.com
                     </p>
                   </div>
                 </div>
@@ -67,10 +67,10 @@ const Contact = () => {
             <div
               className="wow fadeInUp rounded-lg bg-white px-8 py-10 shadow-testimonial dark:bg-dark-2 dark:shadow-none sm:px-10 sm:py-12 md:p-[60px] lg:p-10 lg:px-10 lg:py-12 2xl:p-[60px]"
               data-wow-delay=".2s
-              "
+                         "
             >
               <h3 className="mb-8 text-2xl font-semibold text-dark dark:text-white md:text-[28px] md:leading-[1.42]">
-                Send us a Message
+                メッセージを送る
               </h3>
               <form>
                 <div className="mb-[22px]">
@@ -78,12 +78,12 @@ const Contact = () => {
                     htmlFor="fullName"
                     className="mb-4 block text-sm text-body-color dark:text-dark-6"
                   >
-                    Full Name*
+                    お名前*
                   </label>
                   <input
                     type="text"
                     name="fullName"
-                    placeholder="Adam Gelius"
+                    placeholder="フルネームをご入力ください"
                     className="w-full border-0 border-b border-[#f1f1f1] bg-transparent pb-3 text-dark placeholder:text-body-color/60 focus:border-primary focus:outline-none dark:border-dark-3 dark:text-white"
                   />
                 </div>
@@ -92,7 +92,7 @@ const Contact = () => {
                     htmlFor="email"
                     className="mb-4 block text-sm text-body-color dark:text-dark-6"
                   >
-                    Email*
+                    メールアドレス*
                   </label>
                   <input
                     type="email"
@@ -106,7 +106,7 @@ const Contact = () => {
                     htmlFor="phone"
                     className="mb-4 block text-sm text-body-color dark:text-dark-6"
                   >
-                    Phone*
+                    お電話番号*
                   </label>
                   <input
                     type="text"
@@ -120,21 +120,21 @@ const Contact = () => {
                     htmlFor="message"
                     className="mb-4 block text-sm text-body-color dark:text-dark-6"
                   >
-                    Message*
+                    メッセージ*
                   </label>
                   <textarea
                     name="message"
                     rows={1}
-                    placeholder="type your message here"
+                    placeholder="メッセージをこちらにご入力ください"
                     className="w-full resize-none border-0 border-b border-[#f1f1f1] bg-transparent pb-3 text-dark placeholder:text-body-color/60 focus:border-primary focus:outline-none dark:border-dark-3 dark:text-white"
                   ></textarea>
                 </div>
                 <div className="mb-0">
                   <button
                     type="submit"
-                    className="inline-flex items-center justify-center rounded-md bg-primary px-10 py-3 text-base font-medium text-white transition duration-300 ease-in-out hover:bg-primary/90"
+                    className="inline-flex items-center justify-center rounded-md bg-secondary px-10 py-3 text-base font-medium text-black transition duration-300 ease-in-out hover:bg-primary/90"
                   >
-                    Send
+                    送信
                   </button>
                 </div>
               </form>

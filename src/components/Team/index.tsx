@@ -5,39 +5,39 @@ import SingleTeam from "./SingleTeam";
 const teamData: TeamType[] = [
   {
     id: 1,
-    name: "Adveen Desuza",
-    designation: "UI Designer",
-    image: "/images/team/team-01.png",
-    facebookLink: "/#",
-    twitterLink: "/#",
-    instagramLink: "/#",
+    name: "Alizza H. Tsutsumi",
+    designation: "上席セクレタリー",
+    image: "/images/team/alizza-face.webp",
+    facebookLink: "",
+    twitterLink: "",
+    instagramLink: "",
   },
   {
     id: 2,
-    name: "Jezmin uniya",
-    designation: "Product Designer",
-    image: "/images/team/team-02.png",
-    facebookLink: "/#",
-    twitterLink: "/#",
-    instagramLink: "/#",
+    name: "Kikuo Tsutsumi (堤 紀久夫)",
+    designation: "ファウンダー｜デベロッパー",
+    image: "/images/team/kikuo-in-green.png",
+    facebookLink: "",
+    twitterLink: "",
+    instagramLink: "",
   },
   {
     id: 3,
-    name: "Andrieo Gloree",
-    designation: "App Developer",
-    image: "/images/team/team-03.png",
-    facebookLink: "/#",
-    twitterLink: "/#",
-    instagramLink: "/#",
+    name: 'Althea "Brilliant" Tsutsumi',
+    designation: "プロダクト・デザイナー",
+    image: "/images/team/althea-ai.webp",
+    facebookLink: "",
+    twitterLink: "",
+    instagramLink: "",
   },
   {
     id: 4,
-    name: "Jackie Sanders",
-    designation: "Content Writer",
-    image: "/images/team/team-04.png",
-    facebookLink: "/#",
-    twitterLink: "/#",
-    instagramLink: "/#",
+    name: "Ayla \"Passionate\" Tsutsumi",
+    designation: "コンテンツ・ライター",
+    image: "/images/team/ayla-ai.webp",
+    facebookLink: "",
+    twitterLink: "",
+    instagramLink: "",
   },
 ];
 
@@ -50,9 +50,9 @@ const Team = () => {
       <div className="container">
         <div className="mb-[60px]">
           <SectionTitle
-            subtitle="Our Team"
-            title="Meet Our Team"
-            paragraph="There are many variations of passages of Lorem Ipsum available but the majority have suffered alteration in some form."
+            subtitle="私たちのチーム"
+            title="私たちのチームを紹介します"
+            paragraph="私たちは、AIとオートメーションの力でビジネスの効率化と成長を支援する専門チームです。最先端の技術と戦略を駆使し、企業の課題に最適なソリューションを提供します。AIをビジネスの味方にし、未来を共に創造しましょう。"
             width="640px"
             center
           />
