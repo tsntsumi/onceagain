@@ -25,6 +25,5 @@ jobs:
         run: npm run build
 
       - name: Firebase にデプロイ
-        run: |
-          npm install firebase-tools --save-dev
-          run: npx firebase deploy --token ${{ secrets.FIREBASE_TOKEN }}
+        run: npx firebase deploy --token ${{ secrets.FIREBASE_TOKEN }}
+
