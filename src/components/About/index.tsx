@@ -65,10 +65,10 @@ const About = () => {
                         32
                       </span>
                       <span className="block text-base font-semibold text-white">
-                        わたしは、
+                        わたしには、
                       </span>
                       <span className="block text-base font-medium text-white text-opacity-70">
-                        32年のプログラマ経験があります
+                        32 年のプログラマ経験があります
                       </span>
                     </div>
                     <div>

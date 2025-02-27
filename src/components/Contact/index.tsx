@@ -12,7 +12,7 @@ const Contact = () => {
                   ご連絡はこちらから：
                 </span>
                 <h2 className="max-w-[260px] text-[35px] font-semibold leading-[1.14] text-dark dark:text-white">
-                  あなたの問題、課題についてお話しましょう。
+                  あなたのお困りごと、悩みごとについてお話しましょう
                 </h2>
               </div>
               <div className="mb-12 flex flex-wrap justify-between lg:mb-0">
@@ -50,7 +50,7 @@ const Contact = () => {
                   </div>
                   <div>
                     <h3 className="mb-[18px] text-lg font-semibold text-dark dark:text-white">
-                      どのようにお手伝いしましょう？
+                      お手伝いできることはありますか？
                     </h3>
                     <p className="text-base text-body-color dark:text-dark-6">
                       info@alizza-ideal.com

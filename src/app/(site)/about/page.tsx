@@ -5,14 +5,14 @@ import { Metadata } from "next";
 
 export const metadata: Metadata = {
   title:
-    "About Us | Play SaaS Starter Kit and Boilerplate for Next.js",
-  description: "This is About page description",
+    "About Us | アリザ・アイデアルは AI オートメーション・エージェンシーです",
+  description: "アリザ・アイデアルは、AI オートメーションであなたの生産性向上をお手伝いします。",
 };
 
 const AboutPage = () => {
   return (
     <main>
-      <Breadcrumb pageName="About Us Page" />
+      <Breadcrumb pageName="About Us" />
       <About />
       <Team />
     </main>

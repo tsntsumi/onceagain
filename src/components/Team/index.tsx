@@ -5,7 +5,7 @@ import SingleTeam from "./SingleTeam";
 const teamData: TeamType[] = [
   {
     id: 1,
-    name: "Alizza H. Tsutsumi",
+    name: "Alizza \"Ideal\"",
     designation: "上席セクレタリー",
     image: "/images/team/alizza-face.webp",
     facebookLink: "",
@@ -14,7 +14,7 @@ const teamData: TeamType[] = [
   },
   {
     id: 2,
-    name: "Kikuo Tsutsumi (堤 紀久夫)",
+    name: "堤 紀久夫",
     designation: "ファウンダー｜デベロッパー",
     image: "/images/team/kikuo-in-green.png",
     facebookLink: "",
@@ -23,7 +23,7 @@ const teamData: TeamType[] = [
   },
   {
     id: 3,
-    name: 'Althea "Brilliant" Tsutsumi',
+    name: 'Althea "Brilliant"',
     designation: "プロダクト・デザイナー",
     image: "/images/team/althea-ai.webp",
     facebookLink: "",
@@ -32,7 +32,7 @@ const teamData: TeamType[] = [
   },
   {
     id: 4,
-    name: "Ayla \"Passionate\" Tsutsumi",
+    name: "Ayla \"Passionate\"",
     designation: "コンテンツ・ライター",
     image: "/images/team/ayla-ai.webp",
     facebookLink: "",

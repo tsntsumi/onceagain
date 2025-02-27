@@ -21,12 +21,12 @@ const Footer = () => {
                 />
               </Link>
               <p className="mb-8 max-w-[270px] text-base text-gray-7">
-                不遇なプログラマに贈る、AI 逆転戦略。最新技術を学び、AI エージェントで、あなたの可能性を再び開花。
+                不当な扱いを受けているプログラマに贈る、AI 逆転戦略。AI オートメーションで、あなたの可能性を再び開花。
               </p>
               <div className="-mx-3 flex items-center">
                 <Link
                   aria-label="social link"
-                  href="#"
+                  href="https://www.facebook.com/tsntsumi?mibextid=wwXIfr&mibextid=wwXIfr"
                   className="px-3 text-gray-7 hover:text-white"
                 >
                   <svg
@@ -42,7 +42,7 @@ const Footer = () => {
                 </Link>
                 <Link
                   aria-label="social link"
-                  href="#"
+                  href="https://x.com/tsntsumi?s=21"
                   className="px-3 text-gray-7 hover:text-white"
                 >
                   <svg
@@ -58,7 +58,7 @@ const Footer = () => {
                 </Link>
                 <Link
                   aria-label="social link"
-                  href="#"
+                  href="https://www.instagram.com/onceagain.guide?igsh=MXg2N2hnMWozb3NjbQ%3D%3D&utm_source=qr"
                   className="px-3 text-gray-7 hover:text-white"
                 >
                   <svg
@@ -76,7 +76,7 @@ const Footer = () => {
                 </Link>
                 <Link
                   aria-label="social link"
-                  href="#"
+                  href="https://www.instagram.com/exschizokid?igsh=MW5rY2trdGYxYzR6Yw%3D%3D&utm_source=qr"
                   className="px-3 text-gray-7 hover:text-white"
                 >
                   <svg
@@ -101,7 +101,7 @@ const Footer = () => {
               <ul>
                 <li>
                   <Link
-                    href="#"
+                    href="/about"
                     className="mb-3 inline-block text-base text-gray-7 hover:text-primary"
                   >
                     ホーム
@@ -109,23 +109,23 @@ const Footer = () => {
                 </li>
                 <li>
                   <Link
-                    href="#"
+                    href="/pricing"
                     className="mb-3 inline-block text-base text-gray-7 hover:text-primary"
                   >
-                    特徴
+                    サービス一覧
                   </Link>
                 </li>
                 <li>
                   <Link
-                    href="#"
+                    href="/about#team"
                     className="mb-3 inline-block text-base text-gray-7 hover:text-primary"
                   >
-                    組織概要
+                    チーム紹介
                   </Link>
                 </li>
                 {/* <li>
                     <Link
-                    href="#"
+                    href="#testimonials"
                     className="mb-3 inline-block text-base text-gray-7 hover:text-primary"
                     >
                     お客様の声
@@ -142,36 +142,36 @@ const Footer = () => {
               <ul>
                 <li>
                   <Link
-                    href="#"
+                    href="#features"
                     className="mb-3 inline-block text-base text-gray-7 hover:text-primary"
                   >
-                    どのように機能するか
+                    サービスの仕組み
                   </Link>
                 </li>
                 <li>
                   <Link
-                    href="#"
+                    href="/policy"
                     className="mb-3 inline-block text-base text-gray-7 hover:text-primary"
                   >
-                    プライバシー・ポリシー
+                    個人情報保護
                   </Link>
                 </li>
                 <li>
                   <Link
-                    href="#"
+                    href="/legal"
                     className="mb-3 inline-block text-base text-gray-7 hover:text-primary"
                   >
-                    特別商取引法
+                    特商法表記
                   </Link>
                 </li>
-                <li>
-                  <Link
+                {/* <li>
+                    <Link
                     href="#"
                     className="mb-3 inline-block text-base text-gray-7 hover:text-primary"
-                  >
+                    >
                     返金ポリシー
-                  </Link>
-                </li>
+                    </Link>
+                    </li> */}
               </ul>
             </div>
           </div>
@@ -224,7 +224,7 @@ const Footer = () => {
               <ul>
                 <li>
                   <Link
-                    href="#"
+                    href="#faq"
                     className="mb-3 inline-block text-base text-gray-7 hover:text-primary"
                   >
                     よくある質問
@@ -232,7 +232,7 @@ const Footer = () => {
                 </li>
                 <li>
                   <Link
-                    href="#"
+                    href="/blog"
                     className="mb-3 inline-block text-base text-gray-7 hover:text-primary"
                   >
                     ブログ
@@ -240,7 +240,7 @@ const Footer = () => {
                 </li>
                 <li>
                   <Link
-                    href="#"
+                    href="/contact"
                     className="mb-3 inline-block text-base text-gray-7 hover:text-primary"
                   >
                     サポート
@@ -248,10 +248,10 @@ const Footer = () => {
                 </li>
                 <li>
                   <Link
-                    href="#"
+                    href="/about"
                     className="mb-3 inline-block text-base text-gray-7 hover:text-primary"
                   >
-                    組織概要
+                    アリザ・アイデアルとは
                   </Link>
                 </li>
               </ul>
@@ -267,38 +267,30 @@ const Footer = () => {
               <div className="my-1">
                 <div className="-mx-3 flex items-center justify-center md:justify-start">
                   <Link
-                    href="#"
+                    href="policy"
                     className="px-3 text-base text-gray-7 hover:text-white hover:underline"
                   >
-                    Privacy policy
+                    個人情報保護方針
                   </Link>
                   <Link
-                    href="#"
+                    href="/legal"
                     className="px-3 text-base text-gray-7 hover:text-white hover:underline"
                   >
-                    Legal notice
+                    特商法表記
                   </Link>
-                  <Link
-                    href="#"
-                    className="px-3 text-base text-gray-7 hover:text-white hover:underline"
-                  >
-                    Terms of service
-                  </Link>
+                  {/* <Link
+                      href="#"
+                      className="px-3 text-base text-gray-7 hover:text-white hover:underline"
+                      >
+                      Terms of service
+                      </Link> */}
                 </div>
               </div>
             </div>
             <div className="w-full px-4 md:w-1/3 lg:w-1/2">
               <div className="my-1 flex justify-center md:justify-end">
                 <p className="text-base text-gray-7">
-                  Designed and Developed by{" "}
-                  <Link
-                    href="https://tailgrids.com"
-                    rel="nofollow noopner noreferrer"
-                    target="_blank"
-                    className="text-gray-1 hover:underline"
-                  >
-                    TailGrids and Next.js Templates
-                  </Link>
+                  Designed and Developed by Alizza Ideal
                 </p>
               </div>
             </div>

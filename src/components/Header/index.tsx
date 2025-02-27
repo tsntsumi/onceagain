@@ -300,7 +300,7 @@ const Header = () => {
                         onClick={() => signOut()}
                         className="signUpBtn rounded-lg bg-secondary bg-opacity-100 px-6 py-3 text-base font-medium text-dark duration-300 ease-in-out hover:bg-opacity-20 hover:text-dark"
                       >
-                        Sign Out
+                        サインアウト
                       </button>
                     ) : (
                       <button
@@ -319,13 +319,13 @@ const Header = () => {
                           href="/signin"
                           className="px-7 py-3 text-base font-medium text-dark hover:opacity-70 dark:text-white"
                         >
-                          Sign In
+                          ログイン
                         </Link>
                         <Link
                           href="/signup"
                           className="rounded-lg bg-secondary px-6 py-3 text-base font-medium text-dark duration-300 ease-in-out hover:bg-primary/90 dark:bg-white/10 dark:hover:bg-white/20"
                         >
-                          Sign Up
+                          サインアップ
                         </Link>
                       </>
                     ) : (
@@ -336,7 +336,7 @@ const Header = () => {
                             sticky ? "text-dark dark:text-white" : "text-white"
                           }`}
                         >
-                          Sign In
+                          ログイン
                         </Link>
                         <Link
                           href="/signup"
@@ -346,7 +346,7 @@ const Header = () => {
                               : "bg-white/10 hover:bg-white/20"
                           }`}
                         >
-                          Sign Up
+                          サインアップ
                         </Link>
                       </>
                     )}

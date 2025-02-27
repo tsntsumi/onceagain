@@ -5,8 +5,8 @@ import { Metadata } from "next";
 
 export const metadata: Metadata = {
   title:
-    "Blog Grids | Play SaaS Starter Kit and Boilerplate for Next.js",
-  description: "Blog grids page description",
+    "AI 事業化ブログ | アリザ・アイデアルは AI オートメーション・エージェンシーです",
+  description: "AI を使って事業化するアイデアを解説",
 };
 
 const Blog = () => {
@@ -14,7 +14,7 @@ const Blog = () => {
 
   return (
     <>
-      <Breadcrumb pageName="Blog Grids" />
+      <Breadcrumb pageName="AI 事業化ブログ" />
 
       <section className="pb-10 pt-20 lg:pb-20 lg:pt-[120px]">
         <div className="container">
