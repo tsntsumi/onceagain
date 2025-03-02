@@ -12,9 +12,9 @@ const Pricing = () => {
       <div className="container">
         <div className="mb-[60px]">
           <SectionTitle
-            subtitle="サービス・リスト"
-            title="私たちがご提供するサービスです"
-            paragraph="AIを使って、生産性を上げるための AI オートメーション (AA) サービスです。オフィス・オートメーション (OA) やファクトリーオートメーション (FA) は、AAによって取って代わられつつあります。経営者にとって今が AA を導入する絶好のチャンス！"
+            subtitle="サービス一覧"
+            title="AI オートメーション"
+            paragraph="これは、AIを使って生産性を上げるための自動化システムです。オフィス・オートメーション (OA) が当たり前になったように、すでにAIオートメーションも当たり前になりつつあります。AIオートメーションを導入するのは、今が絶好のチャンス！"
             center
           />
         </div>

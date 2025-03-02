@@ -33,7 +33,7 @@ const Contact = () => {
                       所在地
                     </h3>
                     <p className="text-base text-body-color dark:text-dark-6">
-                      Alby city Legazpi, フィリピン共和国
+                      Albay 州 Legazpi 市, フィリピン
                     </p>
                   </div>
                 </div>

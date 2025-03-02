@@ -7,10 +7,23 @@ const Features = () => {
     <section id="features" className="pb-8 pt-20 dark:bg-dark lg:pb-[70px] lg:pt-[120px]">
       <div className="container">
         <SectionTitle
-          subtitle="ご提供サービス"
-          title="私たちは、AI オートメーション・エージェンシーを始めたい起業家を応援しています"
-          paragraph="AI オートメーションは、経営者・個人事業主が、ビジネスの生産性向上を支援する OA を超える技術です"
+          subtitle="あなたが受け取る武器：AIオートメーション"
+          title="なぜ今、AI オートメーションなのか？"
+          paragraph="AI オートメーションは、ビジネスの生産性を向上させる、現代の OA です。今現在、ビジネスには必須となりつつあります。"
         />
+
+        <div className="text-dark">
+        <p className="my-2 text-justify">
+          その市場規模は、全世界で150兆円と言われています。
+          ということは、この波に乗ろうと多くの競合が参入してきます。
+          早く始めましょう。
+        </p>
+        <p className="my-2 text-justify">
+          規模が大きくて、競合が少ない市場。
+          規模が小さくて、競合が多い市場。
+          どちらの市場にチャンスがあるでしょうか？
+        </p>
+        </div>
 
         <div className="-mx-4 mt-12 flex flex-wrap lg:mt-20">
           {featuresData.map((feature, i) => (

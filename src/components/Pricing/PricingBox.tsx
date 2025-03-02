@@ -30,7 +30,7 @@ const PricingBox = ({ product }: { product: Price }) => {
       >
         {product.recomend && (
           <p className="absolute right-[-38px] top-[60px] inline-block -rotate-90 rounded-bl-md rounded-tl-md bg-secondary px-5 py-2 text-base font-medium text-dark">
-            おすすめ
+            {product.recomend}
           </p>
         )}
         {product.category &&
@@ -51,11 +51,12 @@ const PricingBox = ({ product }: { product: Price }) => {
             {" "}
             {terms[product.term]}
           </span>
-          <span className="text-xl font-medium ml-6">
-            {"通常  "} <s>{ "¥ " }
-            {(product.actual_amount).toLocaleString("ja-JP", {
+          <span className="text-xl font-medium whitespace-nowrap ml-6">
+            {"  通常"} <s>{ "¥ " }
+            {(product.actual_amount / 100).toLocaleString("ja-JP", {
               currency: "JPY",
             })}
+            { product.actual }
             </s>
           </span>
         </h2>

@@ -15,7 +15,7 @@ const CallToAction = () => {
                   </span>
                 </h2>
                 <p className="mx-auto mb-6 max-w-[515px] text-base leading-[1.5] text-white">
-                  もしそうでないなら、新しいキャリアパスでもう一度ゴールを目指しましょう。
+                  もし続けていけそうにないなら、新しいキャリアパスでもう一度ゴールを目指しましょう。
                 </p>
                 <p className="mx-auto mb-6 max-w-[515px] text-base leading-[1.5] text-white">
                   今なら、通常参加料 8,000円の、家族を大切にする地方在住のプログラマーが、

@@ -19,7 +19,7 @@ const About = () => {
                   今の生活に満足していますか？
                 </h3>
                 <p className="mb-10 text-base leading-relaxed text-body-color dark:text-dark-6">
-                  AI オートメーションは、あなたの人生を変える力を持っています。場所や時間に縛られず、高収入を得ながら、家族との時間を大切にできる。そんな理想の未来を、あなたも手に入れませんか？
+                  AI オートメーションは、あなたの人生を変える力を持っています。場所や時間に縛られず、高収入を得ながら、家族との時間を大切にして、余裕を持って生きる。そんな理想の未来を、あなたも手に入れませんか？
 
                 </p>
                 <p className="mb-10 text-base leading-relaxed text-body-color dark:text-dark-6">

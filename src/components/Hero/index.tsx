@@ -17,15 +17,16 @@ const Hero = () => {
               >
                 <h1 className="mb-6 text-3xl font-bold leading-snug text-white sm:text-4xl sm:leading-snug lg:text-5xl lg:leading-[1.2]">
                   <ruby>ワンス・アゲン<rp>(</rp><rt>Once Again</rt><rp>)</rp></ruby>：
-                  <span className="whitespace-nowrap">{" "} プログラマの</span>
-                  <span className="whitespace-nowrap">キャリア再生の道</span>
+                  <span>プログラマの</span>
+                  <span>キャリア再生の道</span>
                 </h1>
-                <p className="mx-auto mb-9 max-w-[600px] text-base font-medium text-white sm:text-lg sm:leading-[1.44]">
+                <p className="mx-auto mb-9 max-w-[600px] text-base text-justify font-medium text-white sm:text-lg sm:leading-[1.44]">
                   <ruby>ワンス・アゲン<rp>(</rp><rt>Once Again</rt><rp>)</rp></ruby>は、
-                  仕事で不遇な状況にあるプログラマが、
-                  最新の AI オートメーションを努力なしに学ぶことで、
-                  今までのキャリアパスから、高収入かつ余裕のある生活を送れるキャリア・パスへと、
-                  もう一度再生するためのサイトです。
+                  仕事で不当な扱いを受けてきたプログラマの逆転戦略。
+                  AI オートメーションを武器に、
+                  時間や場所に縛られずに、高収入を得ながら、家族との時間を大切にして、
+                  余裕を持って生きるための新しいキャリアパスを、
+                  もう一度歩きだすためのサイトです。
                 </p>
                 <ul className="mb-10 flex flex-wrap items-center justify-center gap-5">
                   <li>
@@ -47,11 +48,51 @@ const Hero = () => {
                   </li>
                 </ul>
 
-                <div>
-                  <p className="mb-4 text-center text-base font-medium text-white/60">
-                    <ruby>ワンス・アゲン<rp>(</rp><rt>Once Again</rt><rp>)</rp></ruby>では、
-                    経営者や個人事業主が生産性を向上させるAIオートメーション・エージェントを
-                    開始するための情報を発信しています。
+                <div className="text-justify text-white text-base indent-4 columns-2 gap-8 rounded-lg p-4 bg-gray/20">
+                  <p className="mb-4">
+                    私たちの調査によると、多くのプログラマが、しなくてもよいサービス残業や
+                    突然の休日出勤などのブラック労働が当たり前であると思い込まされています。
+                  </p>
+                  <p className="mb-4">
+                    それがおかしいことだと気づいたプログラマは、
+                    パワハラや嫌がらせを受け、精神的にもつらい状況に立たされています。
+                  </p>
+                  <p className="mb-4">
+                    そんな状況にいるとしたら、今すぐ逃走してください。
+                    無責任だとか、辞めたらそこで
+                    <ruby>ゲーム<rp>(</rp><rt>キャリア</rt><rp>)</rp></ruby>
+                    は終わりですよという言葉は、
+                    既得権益をもつ老害たちのまやかしです。
+                  </p>
+                  <p className="mb-4">
+                    逃げなかったら、ゲームどころかそこで人生が終わりになるかもしれません。
+                    事実、わたしの同期二人は、自殺を選んでしまいました。
+                  </p>
+                  <h2 className="my-6 text-[1.2em] font-medium ">
+                    逃げないのには<ruby>理由<rp>(</rp><rt>ワケ</rt><rp>)</rp></ruby>がある
+                  </h2>
+                  <p className="mb-4">
+                    毎日遅くまで残業し、家族との時間はほとんどない。
+                    上司がパワハラまでしてきて精神的につらい。
+                    地方だから給料も上がらない、やりたい仕事もできない。
+                    もしかしたら、都会に出ないと未来はないのかも…、
+                  </p>
+                  <p className="mb-4">
+                    と思いながら、家族がいるから飛び出せない。
+                  </p>
+                  <p className="mb-4">
+                    もし、子供に聞かれたら「お前が生まれたからだよ」とは言えないし、言いたくない。
+                  </p>
+                  <p className="mt-8 mb-4">
+                    とはいえ、逃走するにしても武器が必要です。
+                  </p>
+                  <p className="mb-4">
+                    そんな、覚悟を決めたあなたのために、
+                    私たちは、AI オートメーションという武器をお渡しします。
+                    そこにとどまって闘うのだとしても役に立つ武器です。
+                  </p>
+                  <p className="mb-4">
+                    受け取ってくれますか？
                   </p>
                 </div>
               </div>

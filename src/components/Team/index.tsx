@@ -50,8 +50,8 @@ const Team = () => {
       <div className="container">
         <div className="mb-[60px]">
           <SectionTitle
-            subtitle="私たちのチーム"
-            title="私たちのチームを紹介します"
+            subtitle="メンバー"
+            title="私たちのメンバーを紹介します"
             paragraph="私たちは、AIとオートメーションの力でビジネスの効率化と成長を支援する専門チームです。最先端の技術と戦略を駆使し、企業の課題に最適なソリューションを提供します。AIをビジネスの味方にし、未来を共に創造しましょう。"
             width="640px"
             center

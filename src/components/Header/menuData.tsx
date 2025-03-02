@@ -9,7 +9,7 @@ const menuData: Menu[] = [
   },
   {
     id: 2,
-    title: "About",
+    title: "私たちについて",
     path: "/about",
     newTab: false,
   },
@@ -21,7 +21,7 @@ const menuData: Menu[] = [
   },
   {
     id: 5,
-    title: "連絡",
+    title: "コンタクト",
     path: "/contact",
     newTab: false,
   },
@@ -50,13 +50,13 @@ const menuData: Menu[] = [
       },
       {
         id: 63,
-        title: "ご連絡ページ",
+        title: "コンタクト",
         path: "/contact",
         newTab: false,
       },
       {
         id: 64,
-        title: "ブログページ",
+        title: "ブログ",
         path: "/blogs",
         newTab: false,
       },
@@ -68,7 +68,7 @@ const menuData: Menu[] = [
       },
       {
         id: 67,
-        title: "ログイン",
+        title: "サインイン",
         path: "/signin",
         newTab: false,
       },
