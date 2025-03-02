@@ -5,14 +5,14 @@ import { Metadata } from "next";
 
 export const metadata: Metadata = {
   title:
-    "About Us | アリザ・アイデアルは AI オートメーション・エージェンシーです",
-  description: "アリザ・アイデアルは、AI オートメーションであなたの生産性向上をお手伝いします。",
+    "組織概要 | プログラマのワンスアゲンをAIオートメーションで応援するアリザ・アイデアル",
+  description: "私たちアリザ・アイデアルについて",
 };
 
 const AboutPage = () => {
   return (
     <main>
-      <Breadcrumb pageName="About Us" />
+      <Breadcrumb pageName="私たちについて" />
       <About />
       <Team />
     </main>

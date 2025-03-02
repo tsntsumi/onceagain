@@ -3,7 +3,7 @@ import NotFound from "@/components/NotFound";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "404 Page | ページが見つかりませんでした",
+  title: "404 Page | プログラマのワンスアゲンをAIオートメーションで応援するアリザ・アイデアル",
 };
 
 const ErrorPage = () => {

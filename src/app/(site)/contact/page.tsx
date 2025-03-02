@@ -4,14 +4,14 @@ import { Metadata } from "next";
 
 export const metadata: Metadata = {
   title:
-    "ご連絡ページ | アリザ・アイデアルは AI オートメーション・エージェンシーです",
-  description: "アリザ・アイデアルとのコンタクト情報",
+    "コンタクト | プログラマのワンスアゲンをAIオートメーションで応援するアリザ・アイデアル",
+  description: "アリザ・アイデアルへの連絡先",
 };
 
 const ContactPage = () => {
   return (
     <>
-      <Breadcrumb pageName="ご連絡ページ" />
+      <Breadcrumb pageName="コンタクトページ" />
 
       <Contact />
     </>

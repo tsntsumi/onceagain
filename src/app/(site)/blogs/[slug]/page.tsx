@@ -23,7 +23,7 @@ export async function generateMetadata({ params }: Props) {
 
   if (post) {
     const metadata = {
-      title: `${post.title || "Single Post Page"} | ${siteName}`,
+      title: `${post.title || "記事ページ"} | ${siteName}`,
       author: authorName,
       robots: {
         index: true,
@@ -77,7 +77,7 @@ export default async function Post({ params }: Props) {
 
   return (
     <>
-      <Breadcrumb pageName="Blog Details" />
+      <Breadcrumb pageName="ブログ記事" />
 
       <section className="pb-10 pt-20 dark:bg-dark lg:pb-20 lg:pt-[120px]">
         <div className="container">
@@ -183,7 +183,7 @@ export default async function Post({ params }: Props) {
                           className="wow fadeInUp relative pb-5 text-2xl font-semibold text-dark dark:text-white sm:text-[28px]"
                           data-wow-delay=".1s"
                         >
-                          Popular Articles
+人気の記事
                         </h2>
                         <span className="mb-10 inline-block h-[2px] w-20 bg-primary"></span>
                       </div>
@@ -197,18 +197,18 @@ export default async function Post({ params }: Props) {
                       ))}
                     </div>
 
-                    <div
-                      className="wow fadeInUp mb-12 overflow-hidden rounded"
-                      data-wow-delay=".1s"
-                    >
-                      <Image
+                    {/* <div
+                        className="wow fadeInUp mb-12 overflow-hidden rounded"
+                        data-wow-delay=".1s"
+                        >
+                        <Image
                         src="/images/blog/bannder-ad.png"
                         alt="image"
                         className="w-full"
                         width={408}
                         height={254}
-                      />
-                    </div>
+                        />
+                        </div> */}
                   </div>
                 </div>
               </div>
@@ -221,7 +221,7 @@ export default async function Post({ params }: Props) {
               data-wow-delay=".2s"
             >
               <h2 className="relative pb-5 text-2xl font-semibold text-dark dark:text-white sm:text-[28px]">
-                Related Articles
+                関連記事
               </h2>
               <span className="mb-10 inline-block h-[2px] w-20 bg-primary"></span>
             </div>

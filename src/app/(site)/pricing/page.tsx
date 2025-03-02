@@ -5,7 +5,7 @@ import { Metadata } from "next";
 
 export const metadata: Metadata = {
   title:
-    "サービス一覧 | アリザ・アイデアルは AI オートメーション・エージェンシーです",
+    "サービス一覧 | プログラマのワンスアゲンをAIオートメーションで応援するアリザ・アイデアル",
   description: "アリザ・アイデアルが提供するサービス・製品の一覧です",
 };
 
