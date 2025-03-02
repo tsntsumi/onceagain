@@ -319,11 +319,11 @@ const Header = () => {
                           href="/signin"
                           className="px-7 py-3 text-base font-medium text-dark hover:opacity-70 dark:text-white"
                         >
-                          ログイン
+                          サインイン
                         </Link>
                         <Link
                           href="/signup"
-                          className="rounded-lg bg-secondary px-6 py-3 text-base font-medium text-dark duration-300 ease-in-out hover:bg-primary/90 dark:bg-white/10 dark:hover:bg-white/20"
+                          className="rounded-lg bg-secondary px-6 py-3 text-base font-medium text-dark dark:text-white duration-300 ease-in-out hover:bg-primary/90 dark:bg-white/10 dark:hover:bg-white/20"
                         >
                           サインアップ
                         </Link>
@@ -336,11 +336,11 @@ const Header = () => {
                             sticky ? "text-dark dark:text-white" : "text-white"
                           }`}
                         >
-                          ログイン
+                          サインイン
                         </Link>
                         <Link
                           href="/signup"
-                          className={`rounded-lg px-6 py-3 text-base font-medium text-white duration-300 ease-in-out ${
+                          className={`rounded-lg px-6 py-3 text-base font-medium text-dark dark:text-white duration-300 ease-in-out ${
                             sticky
                               ? "bg-secondary hover:bg-primary/90 dark:bg-white/10 dark:hover:bg-white/20"
                               : "bg-white/10 hover:bg-white/20"
