@@ -1,6 +1,6 @@
 {
-  "name": "play-nextjs",
-  "version": "2.1.0",
+  "name": "onceagain",
+  "version": "1.0.0",
   "private": true,
   "scripts": {
     "dev": "next dev",

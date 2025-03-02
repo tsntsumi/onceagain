@@ -9,7 +9,7 @@ const HomeBlogSection = ({ posts }: any) => {
           <SectionTitle
             subtitle="ブログ"
             title="最新ニュース"
-            paragraph="There are many variations of passages of Lorem Ipsum available but the majority have suffered alteration in some form."
+            paragraph="AIで稼ぐをテーマに、AI オートメーション、AI エージェント、AI エージェンシーなど、AI の事業化についてのアイデアを掲載しています。。"
             width="640px"
             center
           />

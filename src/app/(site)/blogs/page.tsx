@@ -5,8 +5,8 @@ import { Metadata } from "next";
 
 export const metadata: Metadata = {
   title:
-    "AI 事業化ブログ | アリザ・アイデアルは AI オートメーション・エージェンシーです",
-  description: "AI を使って事業化するアイデアを解説",
+    "AI 事業化ブログ | プログラマのワンスアゲンを応援するアリザ・アイデアル",
+  description: "AI の事業化アイデアを解説",
 };
 
 const Blog = () => {
