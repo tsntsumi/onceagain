@@ -6,8 +6,9 @@ export type Price = {
   nickname: string;
   category: string;
   trial: number;
+  guarantee?: number | undefined;
   recomend: string | undefined,
-  term: "Month" | "Year" | "Lifetime";
+  subscription: "Month" | "Year" | "Lifetime";
   offers: string[];
   cta: string;
 };
