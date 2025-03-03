@@ -5,6 +5,7 @@ const PopularArticle = (props: {
   image: string;
   title: string;
   name: string;
+  slug?: string;
 }) => {
   const { image, title, name, slug } = props;
   return (
