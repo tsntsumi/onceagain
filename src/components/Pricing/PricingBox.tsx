@@ -49,7 +49,7 @@ const PricingBox = ({ product }: { product: Price }) => {
           </span>
           <span className="text-base font-normal text-body-color dark:text-dark-6">
             {" "}
-            {terms[product.term]}
+            {terms[product.subscription]}
           </span>
           <span className="text-xl font-medium whitespace-nowrap ml-6">
             {"  通常"} <s>{ "¥ " }
@@ -65,6 +65,12 @@ const PricingBox = ({ product }: { product: Price }) => {
           <div className="mb-4">
             <h3 className="text-center mb-5 text-md font-bold text-dark dark:text-white">
               {product.trial} 日間　無料トライアル
+            </h3>
+          </div>}
+        { product.guarantee > 0 &&
+          <div className="mb-4">
+            <h3 className="text-center mb-5 text-md font-bold text-dark dark:text-white">
+              {product.guarantee} 日間　返金保証
             </h3>
           </div>}
 
