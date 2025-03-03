@@ -6,7 +6,7 @@ const PopularArticle = (props: {
   title: string;
   name: string;
 }) => {
-  const { image, title, name } = props;
+  const { image, title, name, slug } = props;
   return (
     <div className="w-full px-4 md:w-1/2 lg:w-full">
       <div
@@ -26,7 +26,7 @@ const PopularArticle = (props: {
         <div className="w-full">
           <h4>
             <Link
-              href="/#"
+              href="/blogs/${slug}"
               className="mb-1 inline-block text-lg font-medium leading-snug text-dark hover:text-primary dark:text-dark-6 dark:hover:text-primary lg:text-base xl:text-lg"
             >
               {title}
