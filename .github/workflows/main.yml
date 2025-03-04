@@ -21,11 +21,11 @@ jobs:
       - name: 依存関係のインストール
         run: npm install
 
+      - name: DBスキーマ定義
+        run: npx prisma generate
+
       - name: ビルド
         run: npm run build
-
-      - name: init prizma
-        run: npx prisma generate
 
       - name: Set Web Framework
         run: npx firebase experiments:enable webframeworks
