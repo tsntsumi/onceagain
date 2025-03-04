@@ -27,11 +27,12 @@ jobs:
           NODE_ENV: "production"
 
       - name: Set Web Framework
-        run: npx firebase experiments:enable webframeworks
+        run: firebase experiments:enable webframeworks
 
       - name: Deploy to Firebase
         uses: w9jds/firebase-action@master
         with:
+          args: experiments:enable webframeworks
           args: deploy --token $FIREBASE_TOKEN
         env:
           GCP_SA_KEY: ${{ secrets.GCP_SA_KEY }}
