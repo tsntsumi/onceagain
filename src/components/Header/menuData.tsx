@@ -9,13 +9,13 @@ const menuData: Menu[] = [
   },
   {
     id: 2,
-    title: "私達について",
+    title: "私たち...",
     path: "/about",
     newTab: false,
   },
   {
     id: 3,
-    title: "料金",
+    title: "価格",
     path: "/pricing",
     newTab: false,
   },
