@@ -31,8 +31,8 @@ jobs:
 
       - name: Deploy to Firebase
         uses: w9jds/firebase-action@master
+        run: firebase experiments:enable webframeworks
         with:
-          args: experiments:enable webframeworks
           args: deploy --token $FIREBASE_TOKEN
         env:
           GCP_SA_KEY: ${{ secrets.GCP_SA_KEY }}
