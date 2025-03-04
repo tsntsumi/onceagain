@@ -24,6 +24,9 @@ jobs:
       - name: ビルド
         run: npm run build
 
+      - name: init prizma
+        run: npx prisma generate
+
       - name: Set Web Framework
         run: npx firebase experiments:enable webframeworks
 
