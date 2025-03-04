@@ -5,6 +5,7 @@ export const pricingData: Price[] = [
     id: "price_1QyYgDFI0fllSO6vjiduCl1W",
     unit_amount: 0,
     actual_amount: 8000 * 100,
+    actual: "",
     category: "セミナー",
     nickname: "裏口からの AI 起業入門",
     trial: 0,
