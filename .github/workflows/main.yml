@@ -19,7 +19,7 @@ jobs:
           node-version: 20
 
       - name: 依存関係のインストール
-        run: npm install
+        run: npm install --legacy-peer-deps
 
       - name: ビルド
         run: npm run build
