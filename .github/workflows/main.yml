@@ -25,12 +25,13 @@ jobs:
         run: NODE_ENV=production npm run build --legacy-peer-deps
 
       - name: Set Web Framework
-        run: npx firebase experiments:enable webframeworks
+        run: npx firebase -P onceagain-797e8 experiments:enable webframeworks
+
       - name: login
-        run: npx firebase login:use kikuo@alizza-ideal.com
+        run: npx firebase -P onceagain-797e8 login:use kikuo@alizza-ideal.com
 
       - name: Firebase にデプロイ
         env:
           appId: ${{secrets.FIREBASE_APP_ID}}
           serviceCredentialsFileContent: ${{ secrets.CREDENTIAL_FILE_CONTENT }}
-        run: npx firebase deploy  --legacy-peer-deps
+        run: npx firebase -P onceagain-797e8 deploy  --legacy-peer-deps
