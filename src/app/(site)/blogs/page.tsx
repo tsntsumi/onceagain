@@ -6,7 +6,7 @@ import { Metadata } from "next";
 export const metadata: Metadata = {
   title:
     "AI 事業化ブログ | プログラマのワンスアゲンを応援するアリザ・アイデアル",
-  description: "AI の事業化アイデアを解説",
+  description: "AI を副業から仕事にするアイデアを解説",
 };
 
 const Blog = () => {
@@ -14,7 +14,7 @@ const Blog = () => {
 
   return (
     <>
-      <Breadcrumb pageName="AI 事業化ブログ" />
+      <Breadcrumb pageName="AI を副業から仕事へ" />
 
       <section className="pb-10 pt-20 lg:pb-20 lg:pt-[120px]">
         <div className="container">
