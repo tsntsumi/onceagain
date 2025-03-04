@@ -18,6 +18,7 @@ const Footer = () => {
                   width={140}
                   height={30}
                   className="max-w-full"
+                  priority
                 />
               </Link>
               <p className="mb-8 max-w-[270px] text-base text-gray-7">
