@@ -30,4 +30,4 @@ jobs:
       - name: Firebase にデプロイ
         env:
           TOKEN: ${{ secrets.FILEBASE_TOKEN }}
-        run: FIREBASE_TOKEN=${TOKEN} npx firebase deploy
+        run: npx firebase deploy --token "$TOKEN"
