@@ -28,7 +28,7 @@ jobs:
         run: npx firebase -P onceagain-797e8 experiments:enable webframeworks
 
       - name: login
-        run: npx firebase -P onceagain-797e8 login:use kikuo@alizza-ideal.com
+        run: npx firebase -P onceagain-797e8 login:add "kikuo@alizza-ideal.com"
 
       - name: Firebase にデプロイ
         env:
