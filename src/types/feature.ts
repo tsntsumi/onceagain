@@ -4,7 +4,7 @@ export type Feature = {
   id: number;
   icon: JSX.Element;
   title: string;
-  paragraph: string | string[];
+  paragraph: string | JSX.Element;
   btn: string;
   btnLink: string;
 };

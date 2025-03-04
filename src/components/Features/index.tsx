@@ -9,21 +9,14 @@ const Features = () => {
         <SectionTitle
           subtitle="あなたが受け取る武器：AIオートメーション"
           title="なぜ今、AI オートメーションなのか？"
-          paragraph="AI オートメーションは、ビジネスの生産性を向上させる、現代の OA です。今現在、ビジネスには必須となりつつあります。"
+          paragraph="AI オートメーションは、仕事の生産性を向上させる、現代の OA です。
+                    今や仕事で OA を使うのが、当たり前になったように、
+                    AI オートメーションも仕事には必須となりつつあります。
+                    <br/>
+                    今はもう、地方の会社でも OA を利用していないところはありません。
+                    過去 OA 導入に乗り遅れた会社は、もう同じ過ちをするまいと思うでしょう。"
+          center={true}
         />
-
-        <div className="text-dark">
-        <p className="my-2 text-justify">
-          その市場規模は、全世界で150兆円と言われています。
-          ということは、この波に乗ろうと多くの競合が参入してきます。
-          早く始めましょう。
-        </p>
-        <p className="my-2 text-justify">
-          規模が大きくて、競合が少ない市場。
-          規模が小さくて、競合が多い市場。
-          どちらの市場にチャンスがあるでしょうか？
-        </p>
-        </div>
 
         <div className="-mx-4 mt-12 flex flex-wrap lg:mt-20">
           {featuresData.map((feature, i) => (

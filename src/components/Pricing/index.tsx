@@ -14,7 +14,7 @@ const Pricing = () => {
           <SectionTitle
             subtitle="サービス一覧"
             title="AI での自動化と事業化、そしてAI起業"
-            paragraph="AIオートメーションと、仕事の生産性を向上させる事業、
+            paragraph="AIオートメーションと、仕事の生産性を向上させるエージェンシー事業、
                       そしてそれで起業するためのサービスと情報を提供しています。
                       今、AIオートメーションを導入する絶好のチャンス！"
             center

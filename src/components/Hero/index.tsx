@@ -49,6 +49,9 @@ const Hero = () => {
                 </ul>
 
                 <div className="text-justify text-white text-base indent-4 columns-2 gap-8 rounded-lg p-4 bg-gray/20">
+                  <h2 className="mb-6 text-[1.2em] font-medium indent-0">
+                    逃げてもいいんですよ
+                  </h2>
                   <p className="mb-4">
                     私たちの調査によると、多くのプログラマが、しなくてもよいサービス残業や
                     突然の休日出勤などのブラック労働が当たり前であると思い込まされています。
@@ -58,18 +61,14 @@ const Hero = () => {
                     パワハラや嫌がらせを受け、精神的にもつらい状況に立たされています。
                   </p>
                   <p className="mb-4">
-                    そんな状況にいるとしたら、今すぐ逃走してください。
+                    そんな状況にいるとしたら、今すぐ逃走を開始してください。
                     無責任だとか、辞めたらそこで
                     <ruby>ゲーム<rp>(</rp><rt>キャリア</rt><rp>)</rp></ruby>
                     は終わりですよという言葉は、
                     既得権益をもつ老害たちのまやかしです。
                   </p>
-                  <p className="mb-4">
-                    逃げなかったら、ゲームどころかそこで人生が終わりになるかもしれません。
-                    事実、わたしの同期二人は、自殺を選んでしまいました。
-                  </p>
-                  <h2 className="my-6 text-[1.2em] font-medium ">
-                    逃げないのには<ruby>理由<rp>(</rp><rt>ワケ</rt><rp>)</rp></ruby>がある
+                  <h2 className="my-6 text-[1.2em] font-medium indent-0">
+                    誰のためにそこにいる？
                   </h2>
                   <p className="mb-4">
                     毎日遅くまで残業し、家族との時間はほとんどない。
@@ -77,19 +76,22 @@ const Hero = () => {
                     地方だから給料も上がらない、やりたい仕事もできない。
                     もしかしたら、都会に出ないと未来はないのかも…、
                   </p>
+                  <h2 className="my-6 text-[1.2em] font-medium indent-0">
+                    家族のためにここで...
+                  </h2>
                   <p className="mb-4">
-                    と思いながら、家族がいるから飛び出せない。
-                  </p>
-                  <p className="mb-4">
+                    「なんで嫌なのに辞めないの？」
                     もし、子供に聞かれたら「お前が生まれたからだよ」とは言えないし、言いたくない。
+                    なら逃げましょう。
                   </p>
+                  <h2 className="my-6 text-[1.2em] font-medium indent-0">逃走のための武器</h2>
                   <p className="mt-8 mb-4">
-                    とはいえ、逃走するにしても武器が必要です。
+                    しかし、逃走するにしても武器が必要です。
                   </p>
                   <p className="mb-4">
                     そんな、覚悟を決めたあなたのために、
                     私たちは、AI オートメーションという武器をお渡しします。
-                    そこにとどまって闘うのだとしても役に立つ武器です。
+                    逃げずに留まって闘うのだとしても役に立つ武器です。
                   </p>
                   <p className="mb-4">
                     受け取ってくれますか？

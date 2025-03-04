@@ -3,7 +3,6 @@ import Link from "next/link";
 
 const SingleFeature = ({ feature }: { feature: Feature }) => {
   const { icon, title, paragraph, btn, btnLink } = feature;
-  const paragraphs = Array.isArray(paragraph) ? paragraph : [paragraph]
   return (
     <div className="w-full px-4 md:w-1/2 lg:w-1/4">
       <div className="wow fadeInUp group mb-12" data-wow-delay=".15s">
@@ -14,11 +13,9 @@ const SingleFeature = ({ feature }: { feature: Feature }) => {
         <h3 className="mb-3 text-xl font-bold text-dark dark:text-white">
           {title}
         </h3>
-        { paragraphs.map((p, i) => 
-          <p key={i} className="mb-8 text-body-color dark:text-dark-6 lg:mb-11">
-            {p}
-          </p>)
-        }
+          <div className="mb-8 text-body-color dark:text-dark-6 lg:mb-11 space-y-6">
+            {paragraph}
+          </div>
         { btn !== "" &&
           <Link
             href={btnLink}
