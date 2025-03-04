@@ -32,7 +32,7 @@ jobs:
       - name: Deploy to Firebase
         uses: w9jds/firebase-action@master
         with:
-          args: deploy --legacy-peer-deps
+          args: deploy -P onceagain-797e8
         env:
           GCP_SA_KEY: ${{ secrets.GCP_SA_KEY }}
           NODE_ENV: "production"
