@@ -23,7 +23,8 @@ jobs:
 
       - name: ビルド
         run: npm run build --legacy-peer-deps
-        env: NODE_ENV: "production"
+        env:
+          NODE_ENV: "production"
 
       - name: Set Web Framework
         run: npx firebase -P onceagain-797e8 experiments:enable webframeworks
