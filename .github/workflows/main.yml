@@ -27,12 +27,13 @@ jobs:
           NODE_ENV: "production"
 
       - name: Set Web Framework
-        run: npx firebase -P onceagain-797e8 experiments:enable webframeworks
+        run: npx firebase experiments:enable webframeworks
 
       - name: Deploy to Firebase
         uses: w9jds/firebase-action@master
         with:
-          args: deploy -P onceagain-797e8
+          args: deploy
         env:
           GCP_SA_KEY: ${{ secrets.GCP_SA_KEY }}
           NODE_ENV: "production"
+          FIREBASE_PROJECT: onceagain-797e8
