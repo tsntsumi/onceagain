@@ -32,8 +32,9 @@ jobs:
       - name: Deploy to Firebase
         uses: w9jds/firebase-action@master
         with:
-          args: deploy
+          args: deploy --token $FIREBASE_TOKEN
         env:
           GCP_SA_KEY: ${{ secrets.GCP_SA_KEY }}
           NODE_ENV: "production"
           FIREBASE_PROJECT: onceagain-797e8
+          FIREBASE_TOKEN: ${{ secrets.FIREBASE_TOKEN }}
