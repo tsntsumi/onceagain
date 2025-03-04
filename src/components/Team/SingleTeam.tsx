@@ -3,7 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 
 const SingleTeam = ({ team }: { team: TeamType }) => {
-  const { image, name, designation, facebookLink, twitterLink, instagramLink } =
+  const { image, name, designation, profile, facebookLink, twitterLink, instagramLink } =
     team;
   return (
     <div className="w-full px-4 sm:w-1/2 lg:w-1/4 xl:w-1/4">
@@ -245,6 +245,11 @@ const SingleTeam = ({ team }: { team: TeamType }) => {
           <p className="mb-5 text-sm text-body-color dark:text-dark-6">
             {designation}
           </p>
+          { profile && (
+              <div className="-mt-2 -mb-2 text-sm text-body-color dark:text-dark-6">
+                <Link href={profile} className="underline">プロフィール</Link>
+              </div>
+            )}
           <div className="flex items-center justify-center gap-5 hidden">
             <Link
               aria-label="social link"
