@@ -21,9 +21,6 @@ jobs:
       - name: 依存関係のインストール
         run: npm install
 
-      - name: DBスキーマ定義
-        run: npx prisma generate
-
       - name: ビルド
         run: npm run build
 
