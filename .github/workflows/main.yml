@@ -28,5 +28,6 @@ jobs:
         run: npx firebase experiments:enable webframeworks
 
       - name: Firebase にデプロイ
+        env:
+          FIREBASE_TOKEN: ${{ secrets.FILEBASE_TOKEN }}
         run: npx firebase deploy
-
